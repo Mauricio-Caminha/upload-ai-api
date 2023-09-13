@@ -23,3 +23,15 @@ Content-Type: application/json
 {
   "prompt": "Buda, mente, silenciar, controlar"
 }
+
+###
+
+# @name generate-ai-completion
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+  "videoId": "be056058-38d7-4645-b267-741b6c3109fd",
+  "template": "Gere um resumo sucinto da transcrição do vídeo informada a seguir: '''{transcription}'''",
+  "temperature": 0.5
+}
