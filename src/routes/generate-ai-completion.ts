@@ -40,8 +40,8 @@ export async function generationAICompletionRoute(app: FastifyInstance) {
 
     streamToResponse(stream, reply.raw, {
       headers: {
-        'Acces-Control-Allow-Origin': '*',
-        'Acces-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'
       }
     })
   });
