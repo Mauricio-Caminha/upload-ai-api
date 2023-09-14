@@ -17,7 +17,7 @@ Content-Type: audio/mpeg
 ###
 
 # @name create-transcription
-POST http://localhost:3333/videos/be056058-38d7-4645-b267-741b6c3109fd/transcription
+POST http://localhost:3333/videos/b90cffb0-2dbc-40d2-a12a-0be59d7d0fb3/transcription
 Content-Type: application/json
 
 {
@@ -31,7 +31,7 @@ POST http://localhost:3333/ai/complete
 Content-Type: application/json
 
 {
-  "videoId": "be056058-38d7-4645-b267-741b6c3109fd",
+  "videoId": "b90cffb0-2dbc-40d2-a12a-0be59d7d0fb3",
   "template": "Gere um resumo sucinto da transcrição do vídeo informada a seguir: '''{transcription}'''",
   "temperature": 0.5
 }
